@@ -1,0 +1,92 @@
+[
+  {
+    "id": "condor_1",
+    "nome": "Açúcar Refinado Alto Alegre 5kg",
+    "preco": 15.99,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_2",
+    "nome": "Farinha de Trigo Famiglia Venturelli 5kg",
+    "preco": 18.98,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_3",
+    "nome": "Achocolatado Nescau Lata 350g",
+    "preco": 7.99,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_4",
+    "nome": "Batata Ruffles Tubo 100g",
+    "preco": 8.99,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_5",
+    "nome": "Filé Simples Bovino com Osso kg",
+    "preco": 34.97,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_6",
+    "nome": "Cerveja Heineken Lata 269ml",
+    "preco": 3.79,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_7",
+    "nome": "Conjunto TRESemmé Shampoo + Condicionador",
+    "preco": 27.49,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_8",
+    "nome": "Papel Higiênico Mili Sensitive Care 12 Rolo",
+    "preco": 16.9,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_9",
+    "nome": "Arroz Branco Tio João 5kg",
+    "preco": 22.9,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_10",
+    "nome": "Feijão Preto Kicaldo 1kg",
+    "preco": 6.89,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_11",
+    "nome": "Leite Integral Piracanjuba 1L",
+    "preco": 4.39,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_12",
+    "nome": "Óleo de Soja Liza 900ml",
+    "preco": 6.49,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_13",
+    "nome": "Café Caboclo A vácuo 500g",
+    "preco": 14.9,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_14",
+    "nome": "Detergente Líquido Ypê 500ml",
+    "preco": 2.29,
+    "supermercado": "Supermercado Condor - Bucarein"
+  },
+  {
+    "id": "condor_15",
+    "nome": "Sabão em Pó OMO Multiação 1.6kg",
+    "preco": 21.9,
+    "supermercado": "Supermercado Condor - Bucarein"
+  }
+]
