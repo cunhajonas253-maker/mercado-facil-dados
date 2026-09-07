@@ -1,0 +1,39 @@
+name: Atualizar Ofertas de Joinville Automaticamente
+
+on:
+  schedule:
+    # Roda automaticamente todos os dias às 06:00 AM (Horário de Brasília)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Permite rodar manualmente clicando em um botão no GitHub
+
+jobs:
+  executar-robo:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar bibliotecas
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Executar o Robô de Scraping
+        run: |
+          python scraper_json.py
+
+      - name: Fazer Commit e Push do ofertas.json atualizado
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add ofertas.json
+          git commit -m "Auto-update: Ofertas atualizadas $(date)" || exit 0
+          git push
